@@ -1,0 +1,29 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+numpy = "*"
+scipy = "*"
+torch = "*"
+torchdiffeq = "*"
+imageio = "*"
+matplotlib = "*"
+tqdm = "*"
+cvxpy = "*"
+pylbfgs = "*"
+statsmodels = "*"
+fbm = "*"
+scikit-learn = "*"
+seaborn = "*"
+lasio = "*"
+emd-signal = "*"
+ewtpy = "*"
+nipals = "*"
+
+[dev-packages]
+ipykernel = "*"
+
+[requires]
+python_version = "3.13"
